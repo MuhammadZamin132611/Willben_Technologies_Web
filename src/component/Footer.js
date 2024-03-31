@@ -4,10 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import icon from '../assets/willben_logo.jpg'
 
+
+
 function Footer() {
     return (
         <div className="bg-danger">
             <h1>Footer</h1>
+
+ wasi bhai
+
             <Container>
                 
                 <Row className="">
