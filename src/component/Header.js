@@ -9,7 +9,6 @@ function Header() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                {/* <Navbar.Brand ><Link to="/">Willben Technologies</Link></Navbar.Brand> */}
                 <Navbar.Brand ><Link to="/"><Image src={logo} rounded style={{height:"70px"}} /></Link></Navbar.Brand>
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +17,10 @@ function Header() {
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
                         <NavDropdown title="Services" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/traning">Traning</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/job-placement">Job Placement</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/it-solution">It Solution</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/digital-marketing">Digital Marketing</Link></NavDropdown.Item>
                         </NavDropdown>
                         <Link to="/contact">Contact</Link>
                     </Nav>
