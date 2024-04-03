@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className="bg-success-subtle bg-opacity-10 py-5">
-            <h1 className='text-center pb-5'>Footer</h1>
+        <div className="bg-dark shadow-lg bg-opacity-10 py-5">
+            {/* <h1 className='text-center pb-5'>Footer</h1> */}
             <Container>
 
                 <Row className="">

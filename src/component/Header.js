@@ -17,10 +17,10 @@ function Header() {
                         <Link to="/">Home</Link>
                         <Link to="/about">About Us</Link>
                         <NavDropdown title="Services" id="basic-nav-dropdown">
-                            <NavDropdown.Item ><Link to="/services/traning">Traning</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link to="/services/job-placement">Job Placement</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link to="/services/it-solution">It Solution</Link></NavDropdown.Item>
-                            <NavDropdown.Item ><Link to="/services/digital-marketing">Digital Marketing</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/placement-traning">Placement and Traning</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/it-solution">IT Solution</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/financial-service">Financial Services</Link></NavDropdown.Item>
+                            <NavDropdown.Item ><Link to="/services/company-formation">Company Formation</Link></NavDropdown.Item>
                         </NavDropdown>
                         <Link to="/contact">Contact</Link>
                     </Nav>

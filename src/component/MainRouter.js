@@ -4,10 +4,10 @@ import Home from './Home'
 import About from "./about/About"
 import Contact from "./Contact"
 import Footer from './Footer'
-import Traning from "./services/Traning"
-import JobPlcament from "./services/JobPlcament"
+import FinancialService from "./services/FinancialService"
+import PlcamentAndTraning from "./services/PlcamentAndTraning"
 import ItSolution from "./services/ItSolution"
-import DigitalMarketing from "./services/DigitalMarketing"
+import CompanyFormation from "./services/CompanyFormation"
 function MainRouter() {
     return (
         <>
@@ -20,10 +20,10 @@ function MainRouter() {
                     <Route path='/contact' element={<Contact />} />
                     {/* <Route path='/*' element={<Page404 />} /> */}
                     {/* <Route path='/' element={<Services />} > */}
-                        <Route path='/services/job-placement' element={<JobPlcament />} />
-                        <Route path='/services/traning' element={<Traning />} />
+                        <Route path='/services/placement-traning' element={<PlcamentAndTraning />} />
+                        <Route path='/services/financial-service' element={<FinancialService />} />
                         <Route path='/services/it-solution' element={<ItSolution />} />
-                        <Route path='/services/digital-marketing' element={<DigitalMarketing />} />
+                        <Route path='/services/company-formation' element={<CompanyFormation />} />
                     {/* </Route> */}
                 </Routes>
                 <Footer />

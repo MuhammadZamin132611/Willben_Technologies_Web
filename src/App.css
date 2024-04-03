@@ -12,6 +12,12 @@
   padding: 10px;
   color: black;
 }
+
+.imag-width{
+  width: 100%;
+  height: 450px;
+}
+
 /*  */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
