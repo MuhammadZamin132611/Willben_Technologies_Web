@@ -18,6 +18,10 @@
   height: 450px;
 }
 
+.background{
+  background-color: #EBF6FE;
+}
+
 /*  */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
