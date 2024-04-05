@@ -6,7 +6,7 @@ function Contact() {
             <div className="py-5">
                 <h1 className="text-center pb-3">Contact Us</h1>
                 <Row className="grid gap-3">
-                    <Col className="bg-secondary-subtle rounded shadow p-3 text-center">
+                    <Col sm={3} className="bg-secondary-subtle rounded shadow p-3 text-center">
                         <div>
                             <i className="fa-solid fa-location-dot fs-1 p-4 bg-white rounded-pill mt-5 text-primary"></i>
                         </div>
