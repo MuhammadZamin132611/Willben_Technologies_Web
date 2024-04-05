@@ -5,40 +5,35 @@ import CarouselPage from './Carousel';
 import { Link } from 'react-router-dom';
 function Home() {
     return (
-        <div>
+        <div className='background'>
             <CarouselPage />
-            {/* <Container>home</Container> */}
             <h1 className="pt-2 text-center">Services</h1>
-            <Container className='py-3' >
-                <Row sm={1} md={3} direction="horizontal" gap={3}>
-                    <Col sm={1} md={3} className=' text-center border p-5 bg-secondary-subtle bg-body-tertiary rounded border border-primary'>
-                        {/* <a
-                            href="https://wa.me/918527908615"
-                            className="whatsapp_float"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        ></a> */}
+            <Container className='pt-3 pb-5'>
+                <Row className='grid gap-3'>
+                    <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
+                       
                         <h1 className='bg-white'>Icon</h1>
-                        <h3>Placement & Traning</h3>
+                        <h5 className='text-nowrap'>Placement & Traning</h5>
                         <Link to="/services/placement-traning"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
-                    <Col sm={1} md={3} className='text-center border p-5 bg-secondary-subtle bg-body-tertiary rounded border border-primary'>
+                    <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
                         <h1 className='bg-white'>Icon</h1>
-                        <h3>IT Solution</h3>
+                        <h5 className='text-nowrap'>IT Solution</h5>
                         <Link to="/services/it-solution"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
-                    <Col sm={1} md={3} className='text-center border p-5 bg-secondary-subtle bg-body-tertiary rounded border border-primary'>
+                    <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
                         <h1 className='bg-white'>Icon</h1>
-                        <h3>Financial Services</h3>
+                        <h5 className='text-nowrap'>Financial Services</h5>
                         <Link to="/services/financial-service"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
-                    <Col sm={1} md={3} className='text-center border p-5 bg-secondary-subtle bg-body-tertiary rounded border border-primary'>
+                    <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
                         <h1 className='bg-white'>Icon</h1>
-                        <h3>Company Formation</h3>
+                        <h5 className='text-nowrap'>Company Formation</h5>
                         <Link to="/services/company-formation"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
                 </Row>
             </Container>
+            
 
         </div>
     )

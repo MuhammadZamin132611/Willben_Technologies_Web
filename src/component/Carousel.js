@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 // import Container from 'react-bootstrap/Container';
 import Financial from '../assets/financial-service.jpeg'
-import ITInfomation from '../assets/company-formation.jpeg'
-import jobs from '../assets/jobs.jpeg'
+import CompanyInfomation from '../assets/company-formation.jpeg'
+import ItSolution from '../assets/it-solution.jpeg'
 import Traning from '../assets/traning.avif'
 
 function CarouselPage() {
@@ -19,29 +19,29 @@ function CarouselPage() {
                         </Carousel.Caption> */}
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={ITInfomation} className='imag-width' alt="" />
+                        <img src={CompanyInfomation} className='imag-width' alt="" />
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Company Information</h3>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={jobs} className='imag-width' alt="" />
+                        <img src={ItSolution} className='imag-width' alt="" />
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
+                            <h3>IT Solution</h3>
+                            {/* <p>
                                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
+                            </p> */}
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img src={Traning} className='imag-width' alt="" />
-                        <Carousel.Caption>
+                        {/* <Carousel.Caption>
                             <h3>Third slide label</h3>
                             <p>
                                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                             </p>
-                        </Carousel.Caption>
+                        </Carousel.Caption> */}
                     </Carousel.Item>
                 </Carousel>
             {/* </Container> */}

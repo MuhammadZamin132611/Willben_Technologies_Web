@@ -8,16 +8,16 @@ function CompanyFormation() {
                 <h2 className="pb-3">The various areas we work on are</h2>
                 <Row className="grid gap-3">
                     <Col className="bg-white shadow p-2 px-3">
-                        <h4 className="px-3">Documentation</h4>
-                        <ul>
+                        <h4>Documentation</h4>
+                        <ul className="list-unstyled">
                             <li>Project Proposal Preparation.</li>
                             <li>Concept Notes & DPR</li>
                             <li>Project Guidance &amp; Reporting</li>
                         </ul>
                     </Col>
                     <Col className="bg-white shadow p-2 px-3">
-                        <h4 className="px-3">Accountancy & Finance</h4>
-                        <ul>
+                        <h4>Accountancy & Finance</h4>
+                        <ul className="list-unstyled">
                             <li>Income Tax Return</li>
                             <li>Professional Tax</li>
                             <li>GST Return/Registration</li>
@@ -28,8 +28,8 @@ function CompanyFormation() {
                         </ul>
                     </Col>
                     <Col className="bg-white shadow p-2 px-3">
-                        <h4 className="px-3">Services for Non- Charitable Sector</h4>
-                        <ul>
+                        <h4>Services for Non- Charitable Sector</h4>
+                        <ul className="list-unstyled">
                             <li>Registration of Ltd. Companies & follow ups</li>
                             <li>Excise Registration</li>
                         </ul>
@@ -37,8 +37,8 @@ function CompanyFormation() {
                 </Row>
                 <Row className="grid gap-3 pt-5">
                     <Col className="bg-white shadow p-2 px-3">
-                    <h4 className="px-3">Registration/Amendment</h4>
-                        <ul>
+                        <h4>Registration/Amendment</h4>
+                        <ul className="list-unstyled">
                             <li>NIDHI Company Registration.</li>
                             <li>National Level Society(Societies Registration Act)</li>
                             <li>Trust, 12A, 80G, LLP, Pvt. Company, One Person Company</li>
@@ -58,17 +58,17 @@ function CompanyFormation() {
                         </ul>
                     </Col>
                     <Col className="bg-white shadow p-2 px-3">
-                    <h4 className="px-3">Other Professional Support</h4>
-                    <ul>
-                        <li>Mobile Application Development</li>
-                        <li>Website Design and Development</li>
-                        <li>Survey/Research/Need Assessments</li>
-                        <li>Recognition of Institution from A.I.C.T.E., New Delhi</li>
-                        <li>B.Ed., M.Ed., D.El.Ed., ITEP etc</li>
-                        <li>ANM., GNM, B. Sc. Nursing, D. Pharma, B. Pharma Affiliation etc.</li>
-                        <li>Monitoring & Evaluation</li>
-                        <li>All Other IT Services</li>
-                    </ul>
+                        <h4>Other Professional Support</h4>
+                        <ul className="list-unstyled">
+                            <li>Mobile Application Development</li>
+                            <li>Website Design and Development</li>
+                            <li>Survey/Research/Need Assessments</li>
+                            <li>Recognition of Institution from A.I.C.T.E., New Delhi</li>
+                            <li>B.Ed., M.Ed., D.El.Ed., ITEP etc</li>
+                            <li>ANM., GNM, B. Sc. Nursing, D. Pharma, B. Pharma Affiliation etc.</li>
+                            <li>Monitoring & Evaluation</li>
+                            <li>All Other IT Services</li>
+                        </ul>
                     </Col>
                 </Row>
 

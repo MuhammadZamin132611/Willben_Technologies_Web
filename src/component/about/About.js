@@ -15,7 +15,7 @@ function About() {
                 <h3>Our Mission</h3>
                 <p>To Build a Business Credibility of Most Trusted Human Resources Partner of Creating Business Value.</p>
                 <h3>Our Values</h3>
-                <ul>
+                <ul className="list-unstyled">
                     <li>Customer Centric Innovation Business Human Resource Solution.</li>
                     <li>High Performance Human Resource Solution through Service Excellence Execution.</li>
                     <li>Integity in Business Value Based Human Resources Solutions Through Best Corporate Governance.</li>
