@@ -60,6 +60,15 @@ ul.list-unstyled li:before {
   color: #e5e5e5;
 }
 
+.home-service-icon{
+  margin-top: 16px;
+  font-size: 2rem;
+  background-color: white;
+  padding: 24px 22px;
+  border-radius: 50%;
+  color: #208bd7;
+}
+
 .heading-color{
   color: blck;
 }

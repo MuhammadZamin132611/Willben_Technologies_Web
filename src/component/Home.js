@@ -12,22 +12,22 @@ function Home() {
                 <Row className='grid gap-3'>
                     <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
                        
-                        <h1 className='bg-white'>Icon</h1>
+                    <i class="fa-solid fa-fill-drip home-service-icon mb-3"></i>
                         <h5 className='text-nowrap'>Placement & Traning</h5>
                         <Link to="/services/placement-traning"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
                     <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
-                        <h1 className='bg-white'>Icon</h1>
+                    <i class="fa-solid fa-people-arrows home-service-icon mb-3"></i>
                         <h5 className='text-nowrap'>IT Solution</h5>
                         <Link to="/services/it-solution"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
                     <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
-                        <h1 className='bg-white'>Icon</h1>
+                    <i class="fa-solid fa-chart-gantt home-service-icon mb-3"></i>
                         <h5 className='text-nowrap'>Financial Services</h5>
                         <Link to="/services/financial-service"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
                     <Col className='text-center border p-5 bg-white shadow bg-body-tertiary rounded border'>
-                        <h1 className='bg-white'>Icon</h1>
+                    <i class="fa-solid fa-handshake home-service-icon mb-3"></i>
                         <h5 className='text-nowrap'>Company Formation</h5>
                         <Link to="/services/company-formation"><button className='btn btn-success'>see more...</button> </Link>
                     </Col>
