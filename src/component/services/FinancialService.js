@@ -64,7 +64,7 @@ function FinancialService(){
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i className="fa fa-donate icon-size"></i>
-                    <h6 className="heading-color py-3">Mazzanine Debt Funding</h6>
+                    <h6 className="heading-color py-3">Mezzanine Debt Funding</h6>
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i className="fa fa-piggy-bank icon-size"></i>
@@ -72,7 +72,7 @@ function FinancialService(){
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i className="fa fa-piggy-ban icon-size"></i>
-                    <h6 className="heading-color py-3">Over Leaveraged loan cases</h6>
+                    <h6 className="heading-color py-3">Over Leveraged loan cases</h6>
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i className="fa fa-bahai icon-size"></i>
@@ -88,7 +88,7 @@ function FinancialService(){
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa fa-blender icon-size"></i>
-                    <h6 className="heading-color py-3">Loan for hospitals ,nursing home</h6>
+                    <h6 className="heading-color py-3">Loan for hospitals, nursing home</h6>
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa fa-graduation-cap icon-size"></i>
@@ -120,7 +120,7 @@ function FinancialService(){
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa-solid fa-dollar-sign icon-size"></i>
-                    <h6 className="heading-color py-3">Finance for housing society redevelopment</h6>
+                    <h6 className="heading-color py-3">Foreign currency funding</h6>
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa fa-percentage icon-size"></i>
@@ -140,7 +140,7 @@ function FinancialService(){
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa fa-basketball-ball icon-size"></i>
-                    <h6 className="heading-color py-3">Third party collateral security</h6>
+                    <h6 className="heading-color py-3">Asset backed loans</h6>
                     </Col>
                     <Col sm={3} className="border p-2 px-3 text-center card-color text-color">
                     <i class="fa-brands fa-battle-net icon-size"></i>

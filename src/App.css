@@ -71,6 +71,7 @@ ul.list-unstyled li:before {
 
 .heading-color{
   color: blck;
+  text-transform: capitalize;
 }
 
 .heading-color:hover{

@@ -20,14 +20,14 @@ function Footer() {
                             </div>
                             <h4 className='text-center pt-3 text-white'>Willben Technologies</h4>
                             <div className='d-flex justify-content-center py-4 gap-3'>
-                                <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i class="fa-brands fa-twitter bg-primary p-3 rounded-pill"></i></Link></div>
-                                {/* <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i class="fa-brands fa-facebook-f bg-primary px-4 py-3 rounded-pill"></i></Link></div> */}
-                                <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i class="fa-brands fa-linkedin-in bg-primary p-3 rounded-pill"></i></Link></div>
+                                <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-brands fa-twitter bg-primary p-3 rounded-pill"></i></Link></div>
+                                {/* <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-brands fa-facebook-f bg-primary px-4 py-3 rounded-pill"></i></Link></div> */}
+                                <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-brands fa-linkedin-in bg-primary p-3 rounded-pill"></i></Link></div>
                             </div>
                         </Col>
                         <Col sm={3} className='text-white py-4'>
                             <h3 className='text-primary pb-5'>Quick Link</h3>
-                            <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i class="fa-solid fa-right-long mr-2"></i> Home</Link></div>
+                            <div><Link to="/" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-solid fa-right-long mr-2"></i> Home</Link></div>
                             <div><Link to="/about" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-solid fa-right-long mr-2"></i> About</Link></div>
                             <div><Link to="/contact" className='text-white link-underline link-underline-opacity-0 fs-5'><i className="fa-solid fa-right-long mr-2"></i> Contact</Link></div>
                         </Col>

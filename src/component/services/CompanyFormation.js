@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 function CompanyFormation() {
     return (
         <div className="background py-5">
-            <h1 className="text-center pb-3">Company Formation</h1>
+            <h1 className="text-center pb-3 ">Company Formation</h1>
             <Container>
                 <h2 className="pb-3">The various areas we work on are</h2>
                 <Row className="grid gap-3">
-                    <Col className="bg-white shadow p-2 px-3">
+                    <Col  className="bg-white shadow p-2 px-3">
                         <h4>Documentation</h4>
                         <ul className="list-unstyled">
                             <li>Project Proposal Preparation.</li>
@@ -15,7 +15,7 @@ function CompanyFormation() {
                             <li>Project Guidance &amp; Reporting</li>
                         </ul>
                     </Col>
-                    <Col className="bg-white shadow p-2 px-3">
+                    <Col  className="bg-white shadow p-2 px-3">
                         <h4>Accountancy & Finance</h4>
                         <ul className="list-unstyled">
                             <li>Income Tax Return</li>
@@ -45,7 +45,7 @@ function CompanyFormation() {
                             <li>MSME, NIDHI, HUF. etc.</li>
                             <li>School/College Affiliation</li>
                             <li>Startup Registration</li>
-                            <li>ISO CERTIFICATE:9001:2015,14001,22000,27001,HALAL,HACCP,GMP,FDA,ROHS etc.</li>
+                            <li>ISO CERTIFICATE:9001:2015,14001,22000, 27001,HALAL,HACCP,GMP,FDA,ROHS etc.</li>
                             <li>Registration U/S 10 (23C) of Income Tax Act</li>
                             <li>FCRA Certification</li>
                             <li>FCRA Registration, Renew, Return, etc.</li>

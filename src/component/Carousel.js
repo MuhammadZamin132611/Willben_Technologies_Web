@@ -21,7 +21,7 @@ function CarouselPage() {
                     <Carousel.Item>
                         <img src={CompanyInfomation} className='imag-width' alt="" />
                         <Carousel.Caption>
-                            <h3>Company Information</h3>
+                            <h3>Company Formation</h3>
                             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                         </Carousel.Caption>
                     </Carousel.Item>

@@ -11,7 +11,7 @@ function Contact() {
                             <i className="fa-solid fa-location-dot fs-1 p-4 bg-white rounded-pill mt-5 text-primary"></i>
                         </div>
                         <h4 className="py-3 text-nowrap">ADDRESS</h4>
-                        <p>MB-11, Block-B-21, Laurang House, Kasturba Gandhi Marg, Connaught Place, New Delhi-110001 </p>
+                        <p>N-1 South Extension part 1,Ring road,New Delhi-110049</p>
                     </Col>
                     <Col className="bg-secondary-subtle rounded shadow p-3 text-center">
                         <div>
